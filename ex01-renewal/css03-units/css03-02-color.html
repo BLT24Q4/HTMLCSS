@@ -4,9 +4,7 @@
 <head>
     <title>CSS 색상 실습</title>
     <style>
-        body {
-            background-color: yellow;
-        }
+        
 
         div {
             padding: 10px;
@@ -36,6 +34,19 @@
         .rgba-color {
             background-color: rgba(255, 160, 0, 0.5);
             background-color: #FFA0007F;
+        }
+
+        /* HSL 함수 색상 
+        - Hue (색조): 0도 ~ 360도
+        - Saturation (채도): 0 ~ 100% (완전한 색)
+        - Lightness (명도): 0(빛 없음) ~ 50%(정상 밝기) ~ 100% (완전한 밝기)
+        */
+        .hsl-color {
+            background-color: hsl(45, 100%, 50%);
+        }
+
+        .hsla-color {
+            background-color: hsla(45, 100%, 50%, 0.5);
         }
     </style>
 </head>
